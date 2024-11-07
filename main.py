@@ -9,18 +9,18 @@ option = int(input("Please choose an option : "))
 if option == 1:
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
-    result = num1 + num2
-    print("The result is:", result)
+    num = num1 + num2
+    print("The result is:", num)
 elif option == 2:
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
-    result = num1 - num2
-    print("The result is:", result)
+    num = num1 - num2
+    print("The result is:", num)
 elif option == 3:
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
-    result = num1 * num2
-    print("The result is:", result)
+    num = num1 * num2
+    print("The result is:", num)
 elif option == 4:
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
